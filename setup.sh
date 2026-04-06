@@ -3,3 +3,4 @@ curl -k "https://raw.githubusercontent.com/chubbyhippo/exercism-mise-python-pyte
 curl -k "https://raw.githubusercontent.com/chubbyhippo/exercism-mise-python-pytest-setup/refs/heads/main/requirements.txt" -o "requirements.txt"
 mise install
 python -m venv .venv
+source .venv/bin/activate
