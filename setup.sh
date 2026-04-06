@@ -4,3 +4,4 @@ curl -k "https://raw.githubusercontent.com/chubbyhippo/exercism-mise-python-pyte
 mise exec python@3 -- python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+curl -k "https://raw.githubusercontent.com/chubbyhippo/exercism-mise-python-pytest-setup/refs/heads/main/pytest.ini" -o "pytest.ini"
