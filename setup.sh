@@ -4,3 +4,4 @@ curl -k "https://raw.githubusercontent.com/chubbyhippo/exercism-mise-python-pyte
 mise install
 python -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
